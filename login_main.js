@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('#logout').click(function(){
+      $('#l-f').submit();
+    });
+    $('#cart').click(function(){
+      $('#c-f').submit();
+    });
+    $('#all_products').click(function(){
+      $('#a-p').submit();
+    });
+});

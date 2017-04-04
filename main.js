@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('#login').click(function(){
+        $('.login-form').css('display','block');
+        $('.register-form').css('display','none');
+    });
+    $('#reg,#link-to-reg').click(function(){
+        $('.login-form').css('display','none');
+        $('.register-form').css('display','block');
+    });
+});

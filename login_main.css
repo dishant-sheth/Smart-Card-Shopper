@@ -1,0 +1,118 @@
+@font-face {
+    src: url('roboto.bold.ttf');
+    font-family: rb;
+}
+
+@font-face {
+    src: url('roboto.thin.ttf');
+    font-family: rt;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+.nav {
+    width: 100%;
+    height: 13%;
+    background: #0097A7;
+    position: fixed;
+    z-index: 99;
+}
+
+.nav-name {
+    height: 100%;
+    width: 20%;
+    display: inline-table;
+    vertical-align: top;
+}
+
+.nav-name p{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+    font-family: rb;
+    text-align: center;
+}
+
+.nav-list {
+    display: inline-block;
+    padding: 0;
+    height: 100%;
+    vertical-align: top;
+    width: 70%;
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+}
+
+/*.nav-list li {
+    display: inline-table;
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    background: black;
+}*/
+
+.nav-list li p{
+    color: white;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: rb;
+}
+
+.main-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-box {
+    height: 60%;
+    width: 50%;
+    background: white;
+     -webkit-box-shadow: 3px 1px 17px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 1px 17px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 1px 17px 0px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.main-head {
+    font-size: 30px;
+    color: #0097A7;
+    font-family: rb;
+}
+
+.sub-title {
+    font-size: 20px;
+    color: #0097A7;
+    font-family: rb;
+    margin-bottom: 10%;
+}
+
+.info {
+    /*padding-left: 10%;*/
+    color: #0097A7;
+    font-family: rb;
+    font-family: 17px;
+}
+
+.info span {
+    font-size: 22px;
+    color: grey;
+}
+
+[type="submit"]{
+  background: black;
+  outline: none;
+  border: none;
+  height: 80%;
+  width: 100%;
+}
