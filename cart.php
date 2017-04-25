@@ -243,6 +243,30 @@ include 'dbh.php'
           font-size: 17px;
         }
 
+        .payment a {
+          text-decoration: none;
+          color:white;
+          font-size: 17px;
+          display: block;
+        }
+
+        .payment {
+          height: 8%;
+          width: 17%;
+          border-radius: 5px;
+          background: #0097A7;
+          outline: none;
+          border: none;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          right: 5%;
+          bottom: 3%;
+          text-decoration: none;
+        }
+
         .edit {
           height: 10%;
           width: 50%;
@@ -342,6 +366,11 @@ include 'dbh.php'
 
                  <div class = "empty">
                      <a href="cart.php?cmd=emptycart"><p>Empty Your Cart</p></a>
+                 </div>
+
+                 <div class="payment">
+                   <a href="payment.php?total=<?php echo $cartTotal ?>"><p>Payment</p></a>
+
                  </div>
 
 
